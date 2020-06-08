@@ -32,7 +32,7 @@ clientes: string[] = ['Claro', 'Entel', 'BCP', 'BBVA', 'Interbank'];
     this.forma.controls.pass2.setValidators([
    Validators.required,
    this.noIgual.bind(this.forma)
-]);
+]); 
 
   }
   ngOnInit(): void {
