@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   selector: 'app-datos',
   templateUrl: './datos.component.html',
   styleUrls: ['./datos.component.scss']
-})
+}) 
 export class DatosComponent implements OnInit {
 forma: FormGroup;
 clientes: string[] = ['Claro', 'Entel', 'BCP', 'BBVA', 'Interbank'];
